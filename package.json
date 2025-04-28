@@ -1,0 +1,22 @@
+{
+  "name": "choco-playwright",
+  "version": "0.1.0",
+  "packageManager": "yarn@4.9.1",
+  "type": "module",
+  "description": "A global set of dependencies to be used on Chocolatey Software Playwright projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocolatey/choco-playwright.git"
+  },
+  "author": "Chocolatey Software (https://chocolatey.org/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chocolatey/choco-playwright/issues"
+  },
+  "homepage": "https://github.com/chocolatey/choco-playwright#readme",
+  "scripts": {
+    "audit": "yarn npm audit --all --recursive"
+  },
+  "dependencies": {
+  }
+}

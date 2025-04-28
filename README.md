@@ -1,1 +1,1 @@
-# repository-template
+# Chocolatey choco-playwright
