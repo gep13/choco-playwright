@@ -1,6 +1,12 @@
 import { test, expect } from '@playwright/test';
 
-export const testBaseline = async (): Promise<void> => {
+/**
+ * Test that Playwright is up and running with desired configurations.
+ * @function testBaseline
+ * @returns {void} - Registers a Playwright test.
+ */
+
+export const testBaseline = (): void => {
     test('baseline', async ({ page }) => {
         await page.goto('./');
     

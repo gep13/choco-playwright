@@ -24,7 +24,7 @@ export interface NavigateToUrlTableActionButtonOptions {
     btnActionCell: Locator;
     url?: string | null;
     option: string;
-    expectWarning: boolean
+    expectWarning: boolean;
 }
 
 /**

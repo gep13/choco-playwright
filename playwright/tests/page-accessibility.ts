@@ -16,14 +16,14 @@ export interface TestPageAccessibility {
  * @param {string} options.userName - The username of the specified user.
  * @param {string} options.folderName - The folder name for the accessibility report.
  * @param {string} [options.fileName] - The file name for the accessibility report.
- * @returns {Promise<void>} - A promise that resolves when the test is complete.
+ * @returns {void} - Registers a Playwright test.
  */
 
-export const testPageAccessibility = async ({
+export const testPageAccessibility = ({
     userName = 'Default User',
     folderName,
     fileName
-}: TestPageAccessibility): Promise<void> => {
+}: TestPageAccessibility): void => {
     test(`${userName} - Test page accessibility`, { tag: '@accessibility' }, async ({ page, browserName }) => {
         const postFix = fileName ? `-${fileName}` : '';
 

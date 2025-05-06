@@ -16,7 +16,7 @@ export const locatorsGlobal = (page: Page) => ({
         breadcrumbs: page.locator('nav .breadcrumb'),
         btnAction: page.locator(selectors.btnAction),
         btnActionDropdown: page.locator(`${selectors.btnAction} + .dropdown-menu.show`),
-        cardLast: page.locator(`main .card:not(.dt-processing)`).last(),
+        cardLast: page.locator('main .card:not(.dt-processing)').last(),
         toastContainer: page.locator('.toast-container')
     },
     landmarks: {

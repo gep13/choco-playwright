@@ -4,8 +4,8 @@ import { expect, test } from 'playwright/test';
 import type { Locator } from '@playwright/test';
 
 interface RowEntryTargetOptions {
-    row: Locator,
-    name: string,
+    row: Locator;
+    name: string;
 };
 
 /**
@@ -19,9 +19,7 @@ interface RowEntryTargetOptions {
 export const expectTableActionsMenuEntries = async (
     tableRows: Locator,
     // ESLint is confused about how function type declarations work.
-    // eslint-disable-next-line no-unused-vars
     getRowDescription: (row: Locator) => (string | Promise<string>),
-    // eslint-disable-next-line no-unused-vars
     expectedEntries: ({ row, name }: RowEntryTargetOptions) => (string[] | Promise<string[]>)
 ): Promise<void> => {
     await test.step('Test Actions menu entries of table', async () => {

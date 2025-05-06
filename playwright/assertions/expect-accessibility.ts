@@ -79,7 +79,8 @@ export const expectAccessibility = async ({
                 '#PermissionsTabSelector', // Reason_1
                 '#RolesTabSelector', // Reason_1
                 '.permission-tree', // Reason_1,
-                '#RolesTable .dt-column-title' // Reason_1
+                '#RolesTable .dt-column-title', // Reason_1
+                '.dt-empty' // Reason_1
             ];
 
             // Elements where heading levels should be ignored

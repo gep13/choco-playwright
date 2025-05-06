@@ -11,7 +11,7 @@ const copyFolder = async () => {
     // Copy theme
     await fs.cp(source, destination, { recursive: true });
 
-    console.log(`✅ choco-playwright ready!`);
+    console.log('✅ choco-playwright ready!');
 };
 
 copyFolder();

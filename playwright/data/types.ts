@@ -1,5 +1,5 @@
 export interface Entity {
-    id?: number
+    id?: number;
 }
 
 export interface PathTables {
@@ -9,8 +9,8 @@ export interface PathTables {
 };
 
 export interface PathCards {
-    name: string,
-    content: string | RegExp,
+    name: string;
+    content: string | RegExp;
 };
 
 export interface Paths {
@@ -19,7 +19,7 @@ export interface Paths {
     url?: string;
     permissions?: string[];
     tables?: PathTables[];
-    images?: { [key: string]: string };
+    images?: Record<string, string>;
     sidebarTitle?: string;
-    [key: string]: Paths | string | string[] | undefined | PathTables[] | PathCards[] | { [key: string]: string };
+    [key: string]: Paths | string | string[] | undefined | PathTables[] | PathCards[] | Record<string, string>;
 };
