@@ -1696,7 +1696,7 @@ __metadata:
 
 "choco-theme@https://github.com/chocolatey/choco-theme#choco-playwright":
   version: 1.2.0
-  resolution: "choco-theme@https://github.com/chocolatey/choco-theme.git#commit=8f7399a778043ad20f4e8296aff4e4170b924dcc"
+  resolution: "choco-theme@https://github.com/chocolatey/choco-theme.git#commit=12d1a7c561e54e1a37ded022b2d26225a8fc6f85"
   dependencies:
     "@eonasdan/tempus-dominus": "npm:^6.9.9"
     "@eslint/js": "npm:^9.26.0"
@@ -1751,7 +1751,7 @@ __metadata:
     typescript: "npm:^5.6.2"
     typescript-eslint: "npm:^8.32.0"
     underscore: "npm:^1.13.7"
-  checksum: 10c0/c267186dc9c23223b6a7e83993617dee244f03f85d00eb253b4e07dbd9433dc383f6277972e0c70ba80922c668dab669f45433c098a2b19a56fbf0cf9b626e1c
+  checksum: 10c0/9effef7b45fbbf62196baae8f583f991c01690e3977743915b7b8df1ddf8f421aed7fde4d52cb0269f63e5f475176ef24972d99067980563e49db6ec0236d2db
   languageName: node
   linkType: hard
 
