@@ -3,7 +3,7 @@ import type { Page } from '@playwright/test';
 
 const selectors = {
     btnAction: '#mainActionButton',
-    btnThemeToggle: '#themeToggleBtn',
+    btnThemeToggle: '.dropdown-theme .dropdown-toggle:visible',
 };
 
 export const locatorsGlobal = (page: Page) => ({
